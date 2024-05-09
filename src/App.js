@@ -17,7 +17,7 @@ function App() {
         autoPlayDuration={10000}>
 
         <div>
-          <video autoPlay muted loop onClick={() => { goToUrl("http://www.clubolesapati.cat") }}>
+          <video autoPlay muted loop onClick={() => { goToUrl("http://www.clubolesapati.cat") }} >
             <source src="assets/images/Shot_01.mp4" type="video/mp4" />
           </video>
          

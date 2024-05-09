@@ -37,7 +37,7 @@
   }
 }
 
-div img{
+div img, div video{
   cursor: pointer;
 }
 html{
