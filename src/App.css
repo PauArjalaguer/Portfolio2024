@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+div img{
+  cursor: pointer;
+}
+html{
+   /* background-image: url("../public/assets/images/12.jpg") ;  */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  }
+  .background {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -999;opacity:1;
+  }
