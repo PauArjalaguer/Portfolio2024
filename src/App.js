@@ -15,12 +15,12 @@ function App() {
       <video autoPlay muted loop id="background-video" className='background'>
         <source src="assets/images/video.mp4" type="video/mp4" />
       </video>
-      <div className='absolute top-0 flex flex-col w-full justify-center items-center mt-20 pt-10 '>
-        <h1 className='font-bold text-slate-700 text-5xl'>:: Pau Arjalaguer ::</h1><small className='text-2xl'>Projectes destacats</small>
+      <div className='absolute top-0 flex flex-col w-full justify-center items-center mt-20 pt-10 font-poppins  text-slate-700  '>
+        <h1 className='font-bold text-5xl mb-4 '>:: Pau Arjalaguer ::</h1><small className='text-2xl'>Projectes destacats</small>
       </div>
       <div className='app dark-mode'>
         <Divz autoPlay={true}
-          autoPlayDuration={5000}>
+          autoPlayDuration={10000}>
           <div>
             <video autoPlay muted loop onClick={() => { goToUrl("https://apps.apple.com/es/app/club-olesa-pat%C3%AD/id6444639283?l=ca") }} >
               <source src="assets/images/CopApp.mp4" type="video/mp4" />
@@ -28,24 +28,8 @@ function App() {
 
           </div>
           <div>
-            <video autoPlay muted loop onClick={() => { goToUrl("http://clubolesapati.cat/v2") }} >
-              <source src="assets/images/CopWeb.mp4" type="video/mp4" />
-            </video>
-          </div>
-          <div>
-            <video autoPlay muted loop onClick={() => { goToUrl("https://apps.apple.com/es/app/club-olesa-pat%C3%AD/id6444639283?l=ca") }} >
-              <source src="assets/images/CopApp.mp4" type="video/mp4" />
-            </video>
-
-          </div>
-          <div>
-            <video autoPlay muted loop onClick={() => { goToUrl("http://clubolesapati.cat/v2") }} >
-              <source src="assets/images/CopWeb.mp4" type="video/mp4" />
-            </video>
-          </div>
-          <div>
-            <video autoPlay muted loop onClick={() => { goToUrl("https://apps.apple.com/es/app/club-olesa-pat%C3%AD/id6444639283?l=ca") }} >
-              <source src="assets/images/CopApp.mp4" type="video/mp4" />
+            <video autoPlay muted loop onClick={() => { goToUrl("https://github.com/PauArjalaguer/CopApp2024/releases/download/apk/COPapp2024.apk") }} >
+              <source src="assets/images/CopAndroid.mp4" type="video/mp4" />
             </video>
 
           </div>
@@ -55,12 +39,14 @@ function App() {
             </video>
           </div>
           
+          
 
         </Divz>
       </div>
       {/*  */}
-
+      
     </>
+    
   );
 }
 
