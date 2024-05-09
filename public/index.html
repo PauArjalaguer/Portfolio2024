@@ -45,16 +45,18 @@
     -->
   </body>
   <script>
-    let currentVideo="";
-   let interval = setInterval(
+    let currentVideo="http://localhost:3000/assets/images/CopApp.mp4";
+    let interval = setInterval(
     ()=>{
-    //    document.getElementsByClassName("divz-item selected")[0].getElementsByTagName("div")[0].getElementsByTagName("video")[0].pause();   
-currentVideo = document.getElementsByClassName("divz-item selected")[0].getElementsByTagName("div")[0].getElementsByTagName("video")[0].getElementsByTagName("source")[0].src;
-//console.log(currentVideo);
+   
 if(document.getElementsByClassName("divz-item selected")[0].getElementsByTagName("div")[0].getElementsByTagName("video")[0].getElementsByTagName("source")[0].src!=currentVideo){
-  document.getElementsByClassName("divz-item selected")[0].getElementsByTagName("div")[0].getElementsByTagName("video")[0].currentTime(0);
+ 
+  console.log("Canvi de video"+ document.getElementsByClassName("divz-item selected")[0].getElementsByTagName("div")[0].getElementsByTagName("video")[0].getElementsByTagName("source")[0].src +" a "+currentVideo);
+  document.getElementsByClassName("divz-item selected")[0].getElementsByTagName("div")[0].getElementsByTagName("video")[0].currentTime=0;
+  document.getElementsByClassName("divz-item selected")[0].getElementsByTagName("div")[0].getElementsByTagName("video")[0].play();
+  currentVideo = document.getElementsByClassName("divz-item selected")[0].getElementsByTagName("div")[0].getElementsByTagName("video")[0].getElementsByTagName("source")[0].src;
 }
-    },100
-   )
+    },200
+   ) 
   </script>
 </html>

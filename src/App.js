@@ -38,9 +38,11 @@ function App() {
               <source src="assets/images/CopWeb.mp4" type="video/mp4" />
             </video>
           </div>
-          
-          
-
+          <div>
+            <video autoPlay muted loop  >
+              <source src="assets/images/vtiger.mp4" type="video/mp4" />
+            </video>
+          </div>        
         </Divz>
       </div>
       {/*  */}
