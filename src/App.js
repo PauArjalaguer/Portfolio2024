@@ -16,7 +16,7 @@ function App() {
       </div>
       <div className='flex justify-center  border-2'>
         <Divz autoPlay={true}
-          autoPlayDuration={3000}>
+          autoPlayDuration={7000}>
           <div>
             <video autoPlay muted loop onClick={() => { goToUrl("https://apps.apple.com/es/app/club-olesa-pat%C3%AD/id6444639283?l=ca") }} >
               <source src="assets/images/CopApp.mp4" type="video/mp4" />
