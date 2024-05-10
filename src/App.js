@@ -22,20 +22,24 @@ function App() {
         <Divz autoPlay={true}
           autoPlayDuration={12000}>
           <div>
-            <h1 className='absolute top-0 left-00 flex flex-col w-full   p-6 font-poppins  text-slate-700  text-4xl text-white font-bold'>COP - iOS</h1>
+            <div className='absolute top-0 left-0 flex flex-col w-full   p-6 text-white font-poppins '>
+            <h1 className=' font-poppins  text-slate-700  text-4xl text-white font-bold p-0 m-0'>COP - iOS</h1><br />&bull; React Native<br />&bull; Backend en Php i MySql<small>Click per descarregar</small></div>
             <video autoPlay muted loop onClick={() => { goToUrl("https://apps.apple.com/es/app/club-olesa-pat%C3%AD/id6444639283?l=ca") }} >
               <source src="assets/images/CopApp.mp4" type="video/mp4" />
             </video>
 
           </div>
-          <div> <h1 className='absolute top-0 left-00 flex flex-col w-full   p-6 font-poppins  text-slate-700  text-4xl text-white font-bold'>COP - Android</h1>
+          <div>   
+            <div className='absolute top-0 left-0 flex flex-col w-full   p-6 text-white font-poppins '>
+            <h1 className=' font-poppins  text-slate-700  text-4xl text-white font-bold p-0 m-0'>COP - Android</h1><br />&bull; React Native<br />&bull; Backend en Php i MySql<small>Click per descarregar</small></div>
             <video autoPlay muted loop onClick={() => { goToUrl("https://github.com/PauArjalaguer/CopApp2024/releases/download/apk/COPapp2024.apk") }} >
               <source src="assets/images/CopAndroid.mp4" type="video/mp4" />
             </video>
 
           </div>
           <div>
-            <h1 className='absolute top-0 left-00 flex flex-col w-full   p-6 font-poppins  text-slate-700  text-4xl text-slate-700 font-bold'>COP - Web</h1>
+          <div className='absolute top-0 left-0 flex flex-col w-full   p-6 text-slate-700 font-poppins '>
+            <h1 className=' font-poppins  text-slate-700  text-4xl text-slate-700 font-bold'>COP - Web</h1><br />&bull; React <br />&bull; Backend en Php i MySql<small>Click per descarregar</small></div>
             <video autoPlay muted loop onClick={() => { goToUrl("http://clubolesapati.cat/v2") }} >
               <source src="assets/images/CopWeb.mp4" type="video/mp4" />
             </video>
