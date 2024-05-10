@@ -46,7 +46,7 @@ function App() {
           </div>
           <div>
             <div className='absolute top-0 left-0 flex flex-col w-full   p-6 text-slate-700 font-poppins '>
-              <h1 className=' font-poppins  text-slate-700  text-4xl text-slate-700 font-bold'>COP - Web</h1>&bull; React <br /><small>Click per accedir</small></div>
+              <h1 className=' font-poppins  text-slate-700  text-4xl text-slate-700 font-bold'>Reflexes</h1>&bull; React <br /><small>Click per accedir</small></div>
             <video autoPlay muted loop onClick={() => { goToUrl("https://light-training.vercel.app/") }} >
               <source src="assets/images/lightTraining.mp4" type="video/mp4" />
             </video>
