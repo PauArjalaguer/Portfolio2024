@@ -39,7 +39,7 @@ function App() {
           </div>
           <div>
           <div className='absolute top-0 left-0 flex flex-col w-full   p-6 text-slate-700 font-poppins '>
-            <h1 className=' font-poppins  text-slate-700  text-4xl text-slate-700 font-bold'>COP - Web</h1>&bull; React <br />&bull; Backend en Php i MySql<small>Click per descarregar</small></div>
+            <h1 className=' font-poppins  text-slate-700  text-4xl text-slate-700 font-bold'>COP - Web</h1>&bull; React <br />&bull; Backend en Php i MySql<small>Click per accedir</small></div>
             <video autoPlay muted loop onClick={() => { goToUrl("http://clubolesapati.cat/v2") }} >
               <source src="assets/images/CopWeb.mp4" type="video/mp4" />
             </video>
