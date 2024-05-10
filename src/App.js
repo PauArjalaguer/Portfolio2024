@@ -44,12 +44,14 @@ function App() {
               <source src="assets/images/CopWeb.mp4" type="video/mp4" />
             </video>
           </div>
-          <div>
-            <h1 className='absolute top-0 left-00 flex flex-col w-full   p-6 font-poppins  text-slate-700  text-4xl text-slate-700 font-bold'>CRM vTiger</h1>
+         {/*  <div>
+          <div className='absolute top-0 left-0 flex flex-col w-full   p-6 text-slate-700 font-poppins '>
+            <h1 className=' font-poppins  text-slate-700  text-4xl text-slate-700 font-bold'>CRM vTiger</h1>
+            &bull; PHP i MySql </div>
             <video autoPlay muted loop  >
               <source src="assets/images/vtiger.mp4" type="video/mp4" />
             </video>
-          </div>        
+          </div>         */}
         </Divz>
       </div>
       {/*  */}
